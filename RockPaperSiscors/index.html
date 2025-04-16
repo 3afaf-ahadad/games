@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+    <div class="choose">
+        <h1>Choose :</h1>
+    </div>
+    <div class="btns">
+       <div class="choice">
+        <img src="images/coal-64.png">
+        <button id="Rock" data-img="coal-100.png">Rock</button>
+       </div>
+       <div class="choice">
+           <img src="images/paper-64.png">
+           <button id="Paper" data-img="paper-100.png">Paper</button>
+       </div>
+       <div class="choice">
+        <img src="images/scissors-64.png">
+        <button id="Scissors" data-img="scissors-100.png">Scissors</button>
+       </div>
+    </div>
+
+    <div class="choices-container">
+        <div class="computer">
+            <h1>Computer: </h1><span id="computer-choice"></span>
+        </div>
+        <div class="user">
+            <h1>You: </h1><span id="user-choice"></span>
+        </div>
+    </div>
+    
+    <div id="gameAlert" class="result-alert">
+        <div class="alert-content">
+            <h1>Result: </h1>
+        <span id="alert-result"></span>
+        </div>
+    </div>
+    <audio id="win-sound" src="sounds/win-sound.wav" preload="auto"></audio>
+    <audio id="lose-sound" src="sounds/lose-sound.mp3" preload="auto"></audio>
+    <audio id="click-sound" src="sounds/click-sound.mp3" preload="auto"></audio>
+    <audio id="draw-sound" src="sounds/draw-sound.wav" preload="auto"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
