@@ -19,7 +19,7 @@ My first browser game! 🎀 A cute and interactive rock-paper-scissors battle wi
 
 ## 📷 Preview
 
-
+![Game preview](./Rock-Paper-Scissors-ezgif.com-video-to-gif-converter.gif)
 
 ---
 
