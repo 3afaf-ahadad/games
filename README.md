@@ -24,7 +24,6 @@
 - HTML5
 - CSS3
 - JavaScript (Vanilla)
-- Bootstrap 
 
 ---
 
@@ -35,6 +34,3 @@
 - 🌌⏰ Animations and timers
 - ✨🎨Responsive & engaging design
 
----
-
-👩🏽‍💻 More games coming soon 🚀
