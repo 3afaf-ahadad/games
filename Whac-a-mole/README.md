@@ -1,6 +1,6 @@
 # 🐹 Whack-a-Mole
 
-A simple,⚡fast-paced whack-a-mole game 👀 hit as many moles as you can before time runs out! 
+🎀 A simple,⚡fast-paced whack-a-mole game 👀 hit as many moles as you can before time runs out! 
 
 ---
 
@@ -12,6 +12,11 @@ A simple,⚡fast-paced whack-a-mole game 👀 hit as many moles as you can befor
   - Functions and timers
   - Object management
   - DOM manipulation
+
+---
+
+# 📷 Preview
+![Game's prewiew](./2025-05-0817-25-44-ezgif.com-crop.gif)
 
 ---
 
