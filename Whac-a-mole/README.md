@@ -16,7 +16,7 @@
 ---
 
 # 📷 Preview
-![Game's prewiew](./2025-05-0817-25-44-ezgif.com-crop.gif)
+![Game's prewiew](./images/Whac-a-mole-GIF.gif)
 
 ---
 
