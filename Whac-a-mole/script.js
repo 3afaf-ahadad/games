@@ -1,7 +1,6 @@
 sounds = {
   click: document.getElementById("click"),
   game_over: document.getElementById("game-over"),
-  win: document.getElementById("win"),
 };
 
 const squares = document.querySelectorAll(".square");
@@ -27,12 +26,11 @@ function randomSquare() {
 
 squares.forEach((square) => {
   square.addEventListener("mousedown", () => {
-    sounds.click.play()
     if (square.id == hitPosition) {
-        sounds.win.play()
-        result++;
-        score.textContent = result;
-        console.log(result);
+      sounds.click.play();
+      result++;
+      score.textContent = result;
+      console.log(result);
       hitPosition = null;
     }
   });
@@ -51,13 +49,24 @@ function countDown() {
   if (currentTime == 0) {
     clearInterval(countDownTimer);
     clearInterval(timerId);
-    sounds.game_over.play();
-    alert("GAME OVER!! Your Final Score Is " + result);
 
+    sounds.game_over.play();
+    showAlert();
+    
     document.querySelectorAll(".mole").forEach((mole) => {
       mole.classList.add("game-over");
+
     });
   }
 }
-
 let countDownTimer = setInterval(countDown, 1000);
+
+function showAlert() {
+  let alert = document.getElementById("alert-box");
+  alert.innerHTML = `GOOD JOB!👏<br><p>Score : ${result}</p>`
+  alert.classList.add("show");
+
+  setTimeout(() => {
+    alert.classList.remove("show");
+  }, 2000);
+}

@@ -7,11 +7,13 @@
     <title>Whac-a-mole</title>
   </head>
   <body>
-    <h2>Your score:</h2>
-    <h2 id="score">0</h2>
-
-    <h2>Time left:</h2>
-    <h2 id="time-left">0</h2>
+    <div class="head">
+      <h2>Your score:</h2>
+      <h2 id="score">0</h2>
+  
+      <h2>Time left:</h2>
+      <h2 id="time-left">0</h2>
+    </div>
 
     <div class="grid">
       <div class="square" id="1"></div>
@@ -28,6 +30,9 @@
     <audio src="sounds/click.wav" id="click"></audio>
     <audio src="sounds/game-over.wav" id="game-over"></audio>
     <audio src="sounds/win.wav" id="win"></audio>
+    
+      <div class="alert-box" id="alert-box">
+      </div>
 
     <script src="script.js"></script>
   </body>
